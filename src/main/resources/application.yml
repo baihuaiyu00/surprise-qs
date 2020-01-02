@@ -1,0 +1,8 @@
+spring:
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/views/
+server:
+  servlet:
+    context-path: /suprise
