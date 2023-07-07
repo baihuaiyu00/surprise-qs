@@ -14,6 +14,7 @@ public class NewSessionApplication extends SpringBootInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+        //
         return builder.sources(NewSessionApplication.class);
     }
 
